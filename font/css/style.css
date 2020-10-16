@@ -1,0 +1,132 @@
+body{
+    margin:0;
+    font-size:17px;
+    background-color: #a7ff8320;
+}
+/* header */
+.header{
+    background-color: #364f6b;
+    padding: 30px ;
+    color:white;
+    text-align: center;
+}
+#header-img{
+    width: 150px;
+    border-radius: 100px;
+}
+/* navar */
+#navbar{
+    background-color: #22d1ee;
+    overflow: hidden;
+}
+#navbar a{
+    float: left;
+    display: block;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px 20px;
+    font-size: 14px;
+    text-decoration: none;
+}
+#navbar a:hover{
+    background-color: hotpink;
+    color: indigo;
+}
+.fixMe{
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+.aboutme{
+    padding: 10px;
+    text-align: justify;
+}
+.total-project, .total-student{
+    padding: 20px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    text-align: center;
+}
+.fontawesome{
+    font-size: 30px;
+    color: greenyellow;
+}
+/* my project */
+.single-project{
+    border:2px solid gray;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+/* latest post */
+.latest-post{
+    text-align: justify;
+}
+.latest-post img{
+    width: 100%;
+    height: 170px;
+    border-radius: 5px;
+}
+.latest-post #pp{
+  font-weight: bolder;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(92, 9, 201);
+  font-style: italic;
+}
+/* footer section */
+.footer{
+    background-color: #364f6b;
+    color: white;
+    padding: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.footer p{
+    font-size: 16px;
+    text-align: justify;
+}
+.footer .fontawesome:hover{
+    font-size: 50px;
+    background-color: violet;
+}
+/* blog page */
+.blog{
+    padding: 20px;
+    text-align: justify;
+}
+.blog img{
+    width: 100%;
+    height: 250px;
+    border-radius: 5px;
+}
+.sidebar{
+    padding: 20px;
+}
+.sidebar input[type='text']{
+    border-radius: 5px 0px 0px 5px;
+}
+.sidebar button{
+    border-radius: 0px 5px 5px 0px;
+}
+.post-datail{
+    padding: 20px;
+    text-align: justify;
+}
+.post-datail img{
+    width: 100%;
+    height: 450px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.comment-section img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.comment-section .message-box{
+    width: 290px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #bacccb;
+}
